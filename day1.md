@@ -44,7 +44,11 @@ Eww, I just spotted that IBM calls the density matrix histograms 'cityscapes'. I
 
 But to summarise, the circuit essentially does the following, along each step:
 
-$ |0_A 0_B \rangle \xmapsto{\text{H}_A} |+_A\rangle |0_B\rangle  \xmapsto{\text{CNOT}_{A B}}  |\Phi^+_{A B}\rangle $
+$$
+\begin{align}
+|0_A & 0_B \rangle  \xmapsto{\text{H}_A} |+_A\rangle |0_B\rangle  \xmapsto{\text{CNOT}_{A B}} |\Phi^+_{A B}\rangle
+\end{align}
+$$
 
 Nice little demo of how to prepare a Bell state, one of the powerful building blocks of quantum information.
 
